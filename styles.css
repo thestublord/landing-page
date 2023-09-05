@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 20px;
+    color: #f9faf8;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bolder;
+    /* adjusted from 'extra-bold' to a valid value */
+}
+
+header .links a {
+    margin: 0 10px;
+    font-size: 18px;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding: 50px;
+    text-align: center;
+    color: #f9faf8;
+}
+
+.hero .main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    /* adjusted from 'extra-bold' to a valid value */
+}
+
+.hero .secondary-text {
+    font-size: 18px;
+}
+
+.hero .sign-up-button,
+.footer .sign-up-button {
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero .image-placeholder,
+.next-section .image-placeholder {
+    width: 300px;
+    height: 200px;
+    background-color: #e5e7eb;
+    margin: 20px auto;
+    display: block;
+}
+
+.next-section .image-and-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.next-section .image-and-text .image-placeholder {
+    width: 200px;
+    height: 150px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 50px;
+    text-align: center;
+}
+
+.quote-section .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
+    color: #f9faf8;
+}
+
+.footer .call-to-action {
+    background-color: #3882f6;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    /* adjusted from 'extra-bold' to a valid value */
+    color: #1f2937;
+}
